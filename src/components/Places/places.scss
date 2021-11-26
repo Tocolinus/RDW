@@ -1,0 +1,49 @@
+@mixin displayFlexRow {
+    display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+}
+
+.places{
+
+    width: 100%;
+    
+    &__header{
+        @include displayFlexRow;
+        width: 100%;
+        margin: 0 0 4rem;
+
+    }
+
+    &__title{
+        font-size: 3.2rem;
+        color: green;
+        span{
+            color: black;
+        }
+    }
+
+    &__select{
+        @include displayFlexRow;
+        align-items: center;
+        width: 24rem;
+        border-bottom: 1px solid black;
+        padding: 4px 15px;
+
+        h5{
+            color: #706D6D;
+            font-size: 1.8rem;
+            font-weight: 500;
+        }
+        select {
+            border: 0 none;
+            font-weight: 500;
+            font-size: 1.8rem;
+            color: black;
+            line-height: 2.1rem;
+            padding: 0 .5rem;
+
+        }
+    }
+}
