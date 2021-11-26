@@ -1,3 +1,5 @@
+@import '../../styles/responsive.scss';
+
 @mixin displayFlexRow {
     display: flex;
         flex-direction: row;
@@ -13,7 +15,6 @@
         @include displayFlexRow;
         width: 100%;
         margin: 0 0 4rem;
-
     }
 
     &__title{
@@ -46,4 +47,14 @@
 
         }
     }
+
+        @media (max-width: $mobileLarge){
+            &__header{
+            flex-wrap: wrap;
+        }
+        &__select{
+            margin-top: 1rem;
+        }
+    }
 }
+    
