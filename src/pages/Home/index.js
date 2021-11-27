@@ -1,10 +1,13 @@
-import React, { useState} from 'react';
+import React, { useEffect, useState} from 'react';
 import './styles.scss';
 import imageDestack from '../../images/imagem-destaque.png';
 import Pills from '../../components/Pills';
+import { LocationContext } from '../../contexts/LocationContext';
+import { useContext } from 'react';
+import { useParams } from 'react-router';
 
 const PLACES = [
-    'Praca',
+    'Praça',
     'Parque',
     'Igreja',
     'Hotel',
@@ -14,12 +17,22 @@ const PLACES = [
     'Shopping'
 ]
 
-const Niteroi = props => {
-    const [selectedPill, setSelectedPill] = useState('')
+const Home = () => {
+    const { city, state} = useParams()
+    const [ selectedPill, setSelectedPill ] = useState('')
+
+    const { setCity, setState} = useContext(LocationContext)
+
+
+    useEffect(() =>{
+        setCity(city)
+        setState(state)
+    }, [city, state])
+
     return(
         <main id="main-content" className="home__container">
             <div className="home__col">
-                <h1 className="home__title"> {props.city} para todos </h1>
+                <h1 className="home__title"> { city } para todos </h1>
                 <div className="home__image home__image--destack hide-desktop">
                      <img src={imageDestack} alt="Destaque cadeirante" />   
                         
@@ -66,4 +79,4 @@ const Niteroi = props => {
 
 
 }
-export default Niteroi;
+export default Home;

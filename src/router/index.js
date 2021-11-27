@@ -1,19 +1,25 @@
 import { BrowserRouter as Router, Routes as Switch, Route } from "react-router-dom";
-import Niteroi from '../pages/Niteroi'
-import SaoPaulo from '../pages/Niteroi'
+import Home from '../pages/Home'
+import { LocationContext } from "../contexts/LocationContext";
+import { useState } from "react";
+import Header from "../components/Header";
 
 
-
-const Routes = props => {
+const Routes = () => {
+    const [city, setCity] = useState('')
+    const [state, setState] = useState('')
     return(
-        <Router>
-            <Switch>
+        <LocationContext.Provider value={{ city, setCity, state, setState}}>
+            <Header />
 
-                <Route path= "/:rj/niteroi" element={ <Niteroi city={ props.city } /> } />
-                <Route path= "/:sp/sao-paulo" element={ <SaoPaulo city={ props.city } /> } />
+                <Switch>
 
-            </Switch>
-        </Router>
+                    <Route path= "/:state/:city" element={ <Home/> } />
+
+
+                </Switch>
+
+        </LocationContext.Provider>
     )
 }
 
