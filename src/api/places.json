@@ -1,0 +1,125 @@
+{
+    "places": [
+        {
+            "id": 1,
+            "name": "Campo de São Bento" ,
+            "image": "/places/campodesaobento.png",
+            "description":"Campo de São Bento.",
+            "location": {
+                "lat": "01234",
+                "long": "4321"
+            },
+            "facilities": [
+                    { "item": 1, "status": false},
+                    { "item": 2, "status": true},
+                    { "item": 3, "status": false},
+                    { "item": 4, "status": false},
+                    { "item": 5, "status": false},
+                    { "item": 6, "status": true},
+                    { "item": 7, "status": false},
+                    { "item": 8, "status": true},
+                    { "item": 9, "status": true},
+                    { "item": 10, "status": true}
+                ]
+                
+            
+        },
+        {
+            "id": 2,
+            "name": "Praia de Icaraí" ,
+            "image": "/places/praiadeicarai.png",
+            "description":"Praia de Icaraí.",
+            "location": {
+                "lat": "01234",
+                "long": "4321"
+            },
+            "facilities": [
+                    { "item": 1, "status": true},
+                    { "item": 2, "status": true},
+                    { "item": 3, "status": true},
+                    { "item": 4, "status": true},
+                    { "item": 5, "status": true},
+                    { "item": 6, "status": true},
+                    { "item": 7, "status": true},
+                    { "item": 8, "status": true},
+                    { "item": 9, "status": true},
+                    { "item": 10, "status": true}
+                ]
+                
+            
+        },
+        {
+            "id": 3,
+            "name": "Caminho Niemeyer" ,
+            "image": "/places/caminhoniemeyer.png",
+            "description":"Caminho Niemeyer.",
+            "location": {
+                "lat": "01234",
+                "long": "4321"
+            },
+            "facilities": [
+                    { "item": 1, "status": true},
+                    { "item": 2, "status": true},
+                    { "item": 3, "status": true},
+                    { "item": 4, "status": true},
+                    { "item": 5, "status": true},
+                    { "item": 6, "status": true},
+                    { "item": 7, "status": true},
+                    { "item": 8, "status": true},
+                    { "item": 9, "status": true},
+                    { "item": 10, "status": true}
+                ]
+                
+            
+        },
+        {
+            "id": 4,
+            "name": "Shopping Plaza" ,
+            "image": "/places/shopingplaza.png",
+            "description":"Shopping Plaza.",
+            "location": {
+                "lat": "01234",
+                "long": "4321"
+            },
+            "facilities": [
+                    { "item": 1, "status": true},
+                    { "item": 2, "status": true},
+                    { "item": 3, "status": true},
+                    { "item": 4, "status": true},
+                    { "item": 5, "status": true},
+                    { "item": 6, "status": true},
+                    { "item": 7, "status": true},
+                    { "item": 8, "status": true},
+                    { "item": 9, "status": true},
+                    { "item": 10, "status": true}
+                ]
+                
+            
+        },
+        {
+            "id": 5,
+            "name": "Parque da Cidade" ,
+            "image": "/places/parquedacidade.png",
+            "description":"Parque da Cidade.",
+            "location": {
+                "lat": "01234",
+                "long": "4321"
+            },
+            "facilities": [
+                    { "item": 1, "status": true},
+                    { "item": 2, "status": true},
+                    { "item": 3, "status": true},
+                    { "item": 4, "status": true},
+                    { "item": 5, "status": true},
+                    { "item": 6, "status": true},
+                    { "item": 7, "status": true},
+                    { "item": 8, "status": true},
+                    { "item": 9, "status": true},
+                    { "item": 10, "status": true}
+                ]
+                
+            
+        }
+    ]
+
+}

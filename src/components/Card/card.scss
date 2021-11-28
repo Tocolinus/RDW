@@ -3,14 +3,18 @@
     &__container{
         width: 100%;
         max-width: 222px;
-
+        
     }
     &__image{
-        border: 1px solid lightgreen;
+        padding: .9rem;
+        border: 0.5px solid lightgreen;
         border-radius: 1rem;
         box-sizing: border-box;
         width: 100%;
         height: 222px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
     }
     &__content{
         padding: 1.6rem;
@@ -46,6 +50,7 @@
             &--unchecked{
                 background-color: gray;
             }
+       
         }
     }
 }
