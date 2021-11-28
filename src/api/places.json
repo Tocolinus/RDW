@@ -4,14 +4,16 @@
             "id": 1,
             "name": "Campo de São Bento" ,
             "image": "/places/campodesaobento.png",
-            "description":"Campo de São Bento.",
+            "category": "Parque" ,
+            "description":"Principal jardim público de Niterói. Abriga um pequeno parque de diversões e, nos finais de semana, uma grande feira de artesanato...",
+            "link": "http://www.visit.niteroi.br/praia-de-itacoatiara-2/",
             "location": {
                 "lat": "01234",
                 "long": "4321"
             },
             "facilities": [
                     { "item": 1, "status": false},
-                    { "item": 2, "status": true},
+                    { "item": 2, "status": false},
                     { "item": 3, "status": false},
                     { "item": 4, "status": false},
                     { "item": 5, "status": false},
@@ -19,7 +21,7 @@
                     { "item": 7, "status": false},
                     { "item": 8, "status": true},
                     { "item": 9, "status": true},
-                    { "item": 10, "status": true}
+                    { "item": 10, "status": false}
                 ]
                 
             
@@ -28,22 +30,24 @@
             "id": 2,
             "name": "Praia de Icaraí" ,
             "image": "/places/praiadeicarai.png",
-            "description":"Praia de Icaraí.",
+            "category": "Praia",
+            "description":"Possui uma extensa faixa de areia e um calçadão que permitem a prática de diversas modalidades esportivas, caminhadas ou apenas admirar o belíssimo panorama...",
+            "link": "http://www.visit.niteroi.br/praia-de-icarai/",
             "location": {
                 "lat": "01234",
                 "long": "4321"
             },
             "facilities": [
-                    { "item": 1, "status": true},
-                    { "item": 2, "status": true},
-                    { "item": 3, "status": true},
-                    { "item": 4, "status": true},
-                    { "item": 5, "status": true},
+                    { "item": 1, "status": false},
+                    { "item": 2, "status": false},
+                    { "item": 3, "status": false},
+                    { "item": 4, "status": false},
+                    { "item": 5, "status": false},
                     { "item": 6, "status": true},
-                    { "item": 7, "status": true},
+                    { "item": 7, "status": false},
                     { "item": 8, "status": true},
-                    { "item": 9, "status": true},
-                    { "item": 10, "status": true}
+                    { "item": 9, "status": false},
+                    { "item": 10, "status": false}
                 ]
                 
             
@@ -52,7 +56,9 @@
             "id": 3,
             "name": "Caminho Niemeyer" ,
             "image": "/places/caminhoniemeyer.png",
-            "description":"Caminho Niemeyer.",
+            "category": "Campo",
+            "description":"Abriga, em um terreno à beira mar, promovendo a arte e a cultura, edificações que, juntas com o MAC, formam um caminho ao longo da orla denominado Caminho Niemeyer..",
+            "link": "http://www.visit.niteroi.br/caminho-niemeyer/",
             "location": {
                 "lat": "01234",
                 "long": "4321"
@@ -60,10 +66,10 @@
             "facilities": [
                     { "item": 1, "status": true},
                     { "item": 2, "status": true},
-                    { "item": 3, "status": true},
-                    { "item": 4, "status": true},
+                    { "item": 3, "status": false},
+                    { "item": 4, "status": false},
                     { "item": 5, "status": true},
-                    { "item": 6, "status": true},
+                    { "item": 6, "status": false},
                     { "item": 7, "status": true},
                     { "item": 8, "status": true},
                     { "item": 9, "status": true},
@@ -76,7 +82,9 @@
             "id": 4,
             "name": "Shopping Plaza" ,
             "image": "/places/shopingplaza.png",
-            "description":"Shopping Plaza.",
+            "category": "Shopping",
+            "description":"Possuindo diversas lojas, restaurantes, serviços e um cinema. O Plaza Shopping é um dos principais locais para o dia a dia ou finais de semana...",
+            "link": "https://www.plazaniteroi.com.br/",
             "location": {
                 "lat": "01234",
                 "long": "4321"
@@ -88,7 +96,7 @@
                     { "item": 4, "status": true},
                     { "item": 5, "status": true},
                     { "item": 6, "status": true},
-                    { "item": 7, "status": true},
+                    { "item": 7, "status": false},
                     { "item": 8, "status": true},
                     { "item": 9, "status": true},
                     { "item": 10, "status": true}
@@ -100,7 +108,9 @@
             "id": 5,
             "name": "Parque da Cidade" ,
             "image": "/places/parquedacidade.png",
-            "description":"Parque da Cidade.",
+            "category": "Praça",
+            "description":"Uma área de preservação ambiental, no alto do morro da Viração, possui um mirante com uma visão panorâmica única até onde a vista consegue alcançar...",
+            "link": "http://www.visit.niteroi.br/parquedacidade/",
             "location": {
                 "lat": "01234",
                 "long": "4321"
@@ -109,10 +119,10 @@
                     { "item": 1, "status": true},
                     { "item": 2, "status": true},
                     { "item": 3, "status": true},
-                    { "item": 4, "status": true},
+                    { "item": 4, "status": false},
                     { "item": 5, "status": true},
                     { "item": 6, "status": true},
-                    { "item": 7, "status": true},
+                    { "item": 7, "status": false},
                     { "item": 8, "status": true},
                     { "item": 9, "status": true},
                     { "item": 10, "status": true}

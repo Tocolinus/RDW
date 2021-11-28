@@ -14,7 +14,7 @@ function CuratorItem() {
             <h3>David Gagliano</h3>
             <h6>Curadoria</h6>
                 </div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, corporis nam! Consequatur atque porro repudiandae perspiciatis, inventore est delectus.</p>
+            <p>Graduando de engenharia de produção. Buscando inovação e melhorias, utilizando conhecimentos de engenharia de produção e soluções em TI.</p>
             </div>
         </div>
     )

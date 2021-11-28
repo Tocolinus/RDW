@@ -11,12 +11,12 @@ import 'swiper/swiper-bundle.css'
 SwiperCore.use(Pagination)
 
 function Slider() {
-    const { filteredPlaces, setFilteredPlaces } = useContext(FilterContext)
+    const { filteredPlace, setFilteredPlace } = useContext(FilterContext)
     const [places, setPlaces] = useState ([])
 
     useEffect(() => {
         const fetchPlaces = async () => {
-            const result = await api.get(`/places?category=${filteredPlaces}`)
+            const result = await api.get(`/places?category_like=${filteredPlace}`)
             console.log(result)
             if (result.status === 200) {
                 setPlaces(result.data)
@@ -24,7 +24,7 @@ function Slider() {
         }
 
         fetchPlaces()
-    }, [filteredPlaces])
+    }, [filteredPlace])
 
     return (
         <Swiper 

@@ -77,7 +77,7 @@ const Card = ({item}) => {
 
                 </ul>
                 <p>{item.description}</p>
-                <Button>Como chegar</Button>
+                <a href={item.link} taget="_blank" class="card_button button">Como chegar</a>
             </div>
         </div>
     )

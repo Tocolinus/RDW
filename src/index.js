@@ -19,8 +19,7 @@ ReactDOM.render(
 
     <BrowserRouter>
       <Routes  />
-      <Places />
-      <Curator />
+   
     </BrowserRouter>
       </div>
       <Footer />
