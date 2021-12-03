@@ -16,7 +16,7 @@ function Footer(){
             <div className="footer__section footer__section--second">
                 <div className="footer__container">
                     <p>
-                        <strong>Projeto Elaborado durante a RDW <a href= "https://ebaconline.com" taget="_black">E.B.A.C </a>2021</strong>
+                        <strong>Projeto Elaborado durante a RDW <a href= "https://ebaconline.com.br" taget="_black">E.B.A.C </a>2021</strong>
                         <small>
                         Projetado por <a href="https://github.com/cavalcantemmarcelo" taget="_black">Marcelo Cavalcante</a>
                         e <a href="https://github.com/mja-maia" taget="_black">Miguel Maia</a>, desenvolvido por Aluno EBAC. 
